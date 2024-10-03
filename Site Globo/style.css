@@ -1,0 +1,351 @@
+/* Fonte do link do Header */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Fonte do Titulo da Pagina */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* Formatação do HTML */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Cor de fundo */
+body {
+    background-color: rgb(241, 239, 237);
+}
+
+/* Configuração do Header */
+header {
+    position: relative;
+    top: 0;
+}
+
+/* Display do Nav e configuração */
+.all-list {
+    display: flex;
+    flex-direction: row;
+    margin-inline: 40px;
+    margin-block: 10px;
+}
+
+/* Configuração do link:a no nav */
+.all-list a {
+    font-family: "Roboto", sans-serif, system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    padding-inline: 5px;
+}
+
+/* Tamanho da icon */
+.left-end img{
+    height: 20px;
+}
+
+/* Colocar o .left-end no lado direito */
+.left-end {
+    margin-left: 50%;
+}
+
+/* configuração do link enquerdo */
+.left-end a{
+    color: #000;
+}
+
+/* Cor dos links do header */
+#color1{
+    color: rgb(103, 103, 230);
+}
+#color2{
+    color: #c43131;
+}
+#color3{
+    color: rgb(12, 78, 12);
+}
+#color4{
+    color: #bb6a3b;
+}
+#color5{
+    color: #862817;
+}
+#color6{
+    color: rgb(157, 33, 206);
+}
+#color7{
+    color: rgba(31, 31, 110, 0.842);
+}
+
+/* Configuração do Banner apos o Header */
+.banner-top {
+    background-color: #b62929;
+    height: 110px;
+    width: 100%;
+    position: relative;
+}
+
+/* Div do Banner */
+.conteiner-items-banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 25px;
+    color: #fff;
+}
+
+/* Titulo do Banner */
+.title-banner {
+    color: #fff;
+    font-size: 30px;
+}
+
+/* MENU, G1  */
+.icon-menu {
+    color: #fff;
+    display: flex;
+}
+.icon-menu h2 {
+    padding-left: 25px;
+}
+
+/* Input do Banner */
+.text-input input{
+    padding: 10px 15px;
+    border: none;
+    background-color: #201919c7;
+    color: #fff;
+}                                                                                                     
+
+/* Configuração meio da pagina */
+.meio-conteiner {
+    height: auto;
+    width: auto;
+    margin-block: 70px;
+    margin-inline: 20%;
+}
+.config-conteiners-all-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 180px;
+}
+
+/* Titulo Principal do site */
+.title-meio {
+    font-size: 28px;
+    font-family: "Ubuntu", sans-serif, serif;
+    font-weight: 200;
+}
+/* Paragrafo apos o Titulo */
+.explicar-paragrafo {
+    font-size: 20px;
+    margin-block: 20px;
+}
+
+/* Autor e data */
+.date-day p{
+    font-size: 20px;
+}
+.date-day span {
+    color: #f70000;
+}
+
+/* Icones do Facebook e Instagram */
+.icons-face-ista img {
+    margin-top: 15px;
+    height: 40px;
+    width: auto;
+    background-color: #c6c4c4b4;
+    padding: 5px 150px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Passar o mause em cima do icone */
+.icons-face-ista .hover-icons:hover{
+    background-color: #3f303053;
+}
+
+/* Foto do lula e haddad conversando */
+.img-lula img{
+    height: 450px;
+    width: auto;
+    border-radius: 8px;
+    margin-block: 40px;
+}
+
+/* texto apos a imagem */
+.text-bottom-img p{
+    font-size: 22px;
+    margin-top: 40px;
+}
+.text-bottom-img span{
+    color: #b62929;
+    cursor: pointer;
+}
+.text-bottom-img span:hover{
+    text-decoration:underline;
+}
+
+.list-perg ul{
+    margin-block: 25px;
+    margin-left: 50px;
+}
+.list-perg ul li {
+    font-size: 22px;
+    padding-block: 10px;
+}
+
+.text-bottom-perg p {
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+.list-perg-2 ul{
+    margin-block: 30px;
+    margin-left: 50px;
+}
+
+.list-perg-2 ul li {
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.list-perg-2 span {
+    color: #b62929;
+}
+
+.list-perg-2 span:hover{
+    text-decoration: underline;
+}
+
+.conteiner-box-text-bords h1{
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    width: 500px;
+    text-align: center;
+    padding-block: 25px;
+    padding-inline: 30px;
+    margin-block: 50px;
+    margin-inline: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+}
+
+.pont-sens h1{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.pont-sens p {
+    font-size: 20px;
+    box-sizing: border-box;
+    font-weight: 500;
+    margin-block: 10px;
+}
+
+.list-perg-3 ol {
+    margin-left: 50px;
+    margin-block: 30px;
+}
+
+.list-perg-3 ol li {
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.list-perg-3 ol span{
+    color: #b62929;
+}
+
+.list-perg-3 ol span:hover {
+    text-decoration: underline;
+}
+
+.list-perg-4 h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.list-perg-4 p {
+    font-size: 20px;box-sizing: border-box;
+}
+
+.list-perg-4 p span{
+    color: #b62929;
+}
+
+.list-items {
+    margin-block: 40px;
+    margin-left: 50px;
+}
+
+.list-items li {
+    font-size: 20px;
+    padding-block: 8px;
+    color: #000000df;
+}
+
+.list-items span {
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+.list-perg-5 p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.list-items-1 {
+    margin-block: 30px;
+    margin-left: 50px;
+}
+
+.list-items-1 li {
+    font-size: 20px;
+}
+
+.list-perg-5 span{
+    color: #b62929;
+}
+
+.final-devs{
+    margin-block: 20px;
+}
+
+.final-devs p {
+    font-size: 20px;
+    padding-block: 15px;
+}
+
+.final-devs span {
+    color: #000000;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.final-web {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b62929;
+    height: 80px;
+    border-top: 3px solid rgb(255, 0, 217);
+}
+
+.final-web h1 {
+    color: #fff;
+    font-family: 'Ubuntu', serif;
+}
